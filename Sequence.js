@@ -19,7 +19,7 @@ for(let i =0;i<5;i++)
     console.log(numberArray[i]);
     sum+=numberArray[i];
 }
-//finding their sum and the average.
+//finding their sum and  average.
 console.log("Sum : "+sum);
 avg = sum/5;
 console.log("Average : "+avg);

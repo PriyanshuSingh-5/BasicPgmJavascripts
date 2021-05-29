@@ -1,0 +1,23 @@
+{
+  "name": "javascripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ElseIf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PriyanshuSingh-5/BasicPgmJavascripts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PriyanshuSingh-5/BasicPgmJavascripts/issues"
+  },
+  "homepage": "https://github.com/PriyanshuSingh-5/BasicPgmJavascripts#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "readline-sync": "^1.4.10"
+  }
+}

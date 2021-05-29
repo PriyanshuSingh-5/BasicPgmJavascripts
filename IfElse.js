@@ -40,22 +40,15 @@ console.log("True");
 else
 console.log("False");
 // 3. Check if the year is leap year
-const year = prompt('Enter year: ');   //User input
-if (year % 400 == 0)
-console.log("It's a Leap year");
-// Else If a year is muliple of 100,
-// then it is not a leap year
-else if (year % 100 == 0)
-console.log("It's not a Leap year");
-// Else If a year is muliple of 4,
-// then it is a leap year
-else if (year % 4 == 0)
-console.log("It's a Leap year");
-else
-console.log("It's not a Leap year");
+if(year%400==0 || year%4==0){
+    console.log("leap year");
+}
+else{
+    console.log("Not leap year");
+}
 // 4  Simulate a coin toss
 var tossResult = Math.floor(Math.random()*10)%2;
 if(tossResult==0)
-console.log("Heads it is");
+console.log("It is Heads ");
 else
-console.log("Tails it is");
+console.log("It is Tails ");
